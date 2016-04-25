@@ -47,24 +47,60 @@
  timeGravityAccelerometer-std()-Z   
     Description: Standard deviation of the gravity linear acceleration derived in time in Z direction grouped by subject then activitity names.
     
- timeBodyAccelerometerJerk-mean()-X          
+ timeBodyAccelerometerJerk-mean()-X   
+    Description: Mean value of the body linear acceleration derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+    
  timeBodyAccelerometerJerk-mean()-Y          
+    Description: Mean value of the body linear acceleration derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+    
  timeBodyAccelerometerJerk-mean()-Z           
- timeBodyAccelerometerJerk-std()-X            
+    Description: Mean value of the body linear acceleration derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometerJerk-std()-X     
+    Description: Standard deviation of the body linear acceleration derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+    
  timeBodyAccelerometerJerk-std()-Y             
- timeBodyAccelerometerJerk-std()-Z           
- timeBodyGyroscope-mean()-X               
- timeBodyGyroscope-mean()-Y                   
- timeBodyGyroscope-mean()-Z                   
- timeBodyGyroscope-std()-X                     
- timeBodyGyroscope-std()-Y                   
- timeBodyGyroscope-std()-Z                   
- timeBodyGyroscopeJerk-mean()-X               
- timeBodyGyroscopeJerk-mean()-Y               
- timeBodyGyroscopeJerk-mean()-Z                
- timeBodyGyroscopeJerk-std()-X                 
- timeBodyGyroscopeJerk-std()-Y                
- timeBodyGyroscopeJerk-std()-Z               
+    Description: Standard deviation of the body linear acceleration derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+ 
+ timeBodyAccelerometerJerk-std()-Z          
+    Description: Standard deviation of the body linear acceleration derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscope-mean()-X   
+     Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+     
+ timeBodyGyroscope-mean()-Y     
+      Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+     
+ timeBodyGyroscope-mean()-Z        
+      Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+     
+ timeBodyGyroscope-std()-X     
+       Description: Standard deviation of the body angular velocity derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+     
+ timeBodyGyroscope-std()-Y   
+        Description: Standard deviation of the body angular velocity derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+     
+ timeBodyGyroscope-std()-Z 
+        Description: Standard deviation of the body angular velocity derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+     
+ timeBodyGyroscopeJerk-mean()-X 
+     Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscopeJerk-mean()-Y      
+      Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscopeJerk-mean()-Z        
+      Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscopeJerk-std()-X  
+      Description: Standard deviation of the body angular velocity derived in time to obtain Jerk signals in X direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscopeJerk-std()-Y 
+      Description: Standard deviation of the body angular velocity derived in time to obtain Jerk signals in Y direction grouped by subject then activitity names.
+ 
+ timeBodyGyroscopeJerk-std()-Z    
+      Description: Mean value of the body angular velocity derived in time to obtain Jerk signals in Z direction grouped by subject then activitity names.
+ 
  timeBodyAccelerometerMagnitude-mean()        
  timeBodyAccelerometerMagnitude-std()          
  timeGravityAccelerometerMagnitude-mean()     
