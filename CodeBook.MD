@@ -1,7 +1,9 @@
  subject
+ 
     Description: The ID of the test subject
     
  activitynames
+ 
     Description: The type of activity performed when the corresponding measurements were taken
     Values:
       WALKING
