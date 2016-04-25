@@ -12,18 +12,41 @@
       LAYING
 
  timeBodyAccelerometer-mean()-X       
-    Description: 
- timeBodyAccelerometer-mean()-Y                
- timeBodyAccelerometer-mean()-Z                
- timeBodyAccelerometer-std()-X                 
- timeBodyAccelerometer-std()-Y                 
- timeBodyAccelerometer-std()-Z                
- timeGravityAccelerometer-mean()-X           
- timeGravityAccelerometer-mean()-Y            
- timeGravityAccelerometer-mean()-Z           
- timeGravityAccelerometer-std()-X             
- timeGravityAccelerometer-std()-Y             
- timeGravityAccelerometer-std()-Z          
+    Description: Mean value of the body linear acceleration derived in time in X direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometer-mean()-Y  
+    Description: Mean value of the body linear acceleration derived in time in Y direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometer-mean()-Z   
+    Description: Mean value of the body linear acceleration derived in time in X direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometer-std()-X      
+    Description: Standard deviation of the body linear acceleration derived in time in X direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometer-std()-Y  
+    Description: Standard deviation of the body linear acceleration derived in time in Y direction grouped by subject then activitity names.
+    
+ timeBodyAccelerometer-std()-Z   
+    Description: Standard deviation of the body linear acceleration derived in time in Z direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-mean()-X
+    Description: Mean value of the gravity linear acceleration derived in time in X direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-mean()-Y   
+    Description: Mean value of the gravity linear acceleration derived in time in Y direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-mean()-Z    
+    Description: Mean value of the gravity linear acceleration derived in time in Z direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-std()-X     
+    Description: Standard deviation of the gravity linear acceleration derived in time in X direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-std()-Y     
+    Description: Standard deviation of the gravity linear acceleration derived in time in Y direction grouped by subject then activitity names.
+    
+ timeGravityAccelerometer-std()-Z   
+    Description: Standard deviation of the gravity linear acceleration derived in time in Z direction grouped by subject then activitity names.
+    
  timeBodyAccelerometerJerk-mean()-X          
  timeBodyAccelerometerJerk-mean()-Y          
  timeBodyAccelerometerJerk-mean()-Z           

@@ -57,4 +57,6 @@ datasetnew <- aggregate(. ~subject + activitynames, dataset, mean)
 
 write.table(datasetnew, file = "cleandataset.txt",row.name=TRUE)
 
+names(datasetnew)
+head(datasetnew)
 
