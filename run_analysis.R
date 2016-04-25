@@ -68,6 +68,6 @@ datasetnew <- aggregate(. ~subject + activitynames, dataset, mean)
 
 ##Write the data into txt file:
 
-write.table(datasetnew, file = "cleandataset.txt",row.name=TRUE)
+write.table(datasetnew, file = "cleandataset.txt",row.name=FALSE)
 
 
