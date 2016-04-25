@@ -7,10 +7,6 @@ download.file(dataurl,destfile="./UCI HAR Dataset.zip",method="curl")
 
 unzip(zipfile="./UCI HAR Dataset.zip",exdir="./UCI HAR Dataset")
 
-files <- list.files("./UCI HAR Dataset",recursive=TRUE)
-files
-
-
 ##Read files into R:
     
 feature_test <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
@@ -21,11 +17,6 @@ activity_outcome_train<- read.table("./UCI HAR Dataset/train/y_train.txt", heade
 
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
-
-str(activity_outcome_test)
-str(activity_outcome_train)
-str(feature_test)
-str(feature_train)
 
 ##Merge files:
     

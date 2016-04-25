@@ -5,9 +5,7 @@ Download the data:
 2. Use download.file function to download the data file in zip fomat: 
 download.file(dataurl,destfile="./UCI HAR Dataset.zip",method="curl")
 3. Unzip the file: unzip(zipfile="./UCI HAR Dataset.zip",exdir="./UCI HAR Dataset")
-4. View files in the folder: 
-files <- list.files("./UCI HAR Dataset",recursive=TRUE)
-files
+
 
 Read files into R:
 1. Read test and train data files:
